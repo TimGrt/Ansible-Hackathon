@@ -105,3 +105,4 @@ repo_name: TimGrt/Ansible-Hackathon
 # Navigation definition
 nav:
   - "Overview": index.md
+  - "Usecase Eins": ./usecase_one/index.md
