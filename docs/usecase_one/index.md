@@ -14,7 +14,7 @@ In diesem Usecase soll auf verschiedene Events reagiert werden, um einen optimal
 - Execution Environment (default oder custom)
 
 **Ziel:**
-Die Playbooks befinden sich in einem SCM, der Usecase ist vollautomatisiert und nach validate Pattern dokumentiert.
+Die Playbooks befinden sich in einem SCM, der Usecase ist vollautomatisiert und nach [Doku Vorgaben](../docu_pattern/index.md) zu dokumentiert.
 
 ## Vorgehen:
 
