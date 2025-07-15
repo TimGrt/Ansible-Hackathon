@@ -106,3 +106,4 @@ repo_name: TimGrt/Ansible-Hackathon
 nav:
   - "Overview": index.md
   - "Usecase Eins": ./usecase_one/index.md
+  - "Validate Pattern": ./validate_pattern/index.md

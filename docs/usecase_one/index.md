@@ -34,6 +34,9 @@ Man kann alle Objektdaten des Inventory Plugin über ansible-inventory anzeigen.
 **Step 3:**
 Event driven Automation Rulebook erstellen und auf ein beliebiges Event hören z.B. Prozess oder Änderung des Netboxobjekt. Durch das getriggerte Event wird ein Playbook ausgeführt und der Container oder die VM repariert. Hierzu kann der Container oder die VM auch einfach gelöscht und neu erstellt werden. Alles soll nach den Tests über die AAP 2.5 funktionieren.
 
+**Step 4:**
+In der VM soll ein Webserver installiert werden, mit der Dokumentation des Projekts. Es kann das GitHub Projekt des Hackathon verwendet werden und um die Dokumentation erweitert werden.
+
 ### Links:
 
 - [netbox-community Devicetype-library](https://github.com/netbox-community/devicetype-library/tree/master)
