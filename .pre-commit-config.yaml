@@ -23,9 +23,3 @@ repos:
     rev: 0.33.3
     hooks:
       - id: check-github-workflows
-  - repo: https://github.com/codespell-project/codespell
-    rev: v2.4.1
-    hooks:
-      - id: codespell
-        name: Run codespell checker
-        entry: codespell
