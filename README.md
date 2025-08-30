@@ -1,10 +1,8 @@
 # Ansible Hackathon
 
-This repository contains the exercise/use-case descriptions for the Computacenter Ansible Hackathon.  
+This repository contains the use-case descriptions and documentation for the Computacenter Ansible Hackathon.  
 
-> NOTE: UNDER HEAVY CONSTRUCTION
-
-[![Built with Material for MkDocs](https://img.shields.io/badge/Material_for_MkDocs-526CFE?logo=MaterialForMkDocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/)
+[![Linting](https://github.com/TimGrt/Ansible-Hackathon/actions/workflows/ci.yml/badge.svg)](https://github.com/TimGrt/Ansible-Hackathon/actions/workflows/ci.yml) [![Deployment](https://github.com/TimGrt/Ansible-Hackathon/actions/workflows/cd.yml/badge.svg)](https://github.com/TimGrt/Ansible-Hackathon/actions/workflows/cd.yml) [![Built with Material for MkDocs](https://img.shields.io/badge/Material_for_MkDocs-526CFE?logo=MaterialForMkDocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/)
 
 ## Development
 
@@ -43,7 +41,7 @@ pip3 install -r requirements.txt
 Install *pre-commit* package and hooks:
 
 ```bash
-pip3 install -r requirements.txt
+pip3 install pre-commit
 ```
 
 ```bash
@@ -78,16 +76,16 @@ Before opening a *pull request* make sure you followed the next couple of steps.
 
 ## Build and publish guide manually
 
-Use the provided `Containerfile` if you want to publish the Workshop exercises guide yourself.
+Use the provided `Containerfile` if you want to publish the Hackathon guide yourself.
 
 Build the image:
 
 ```bash
-podman build -t ansible-windows-workshop .
+podman build -t ansible-hackathon-guide .
 ```
 
 Run a container from the previously build image, the webserver is available at Port 8080:
 
 ```bash
-podman run -d -p 8080:8080/tcp --name workshop ansible-windows-workshop
+podman run -d -p 8080:8080/tcp --name workshop ansible-hackathon-guide
 ```
