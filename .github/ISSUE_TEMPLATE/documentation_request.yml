@@ -1,0 +1,31 @@
+---
+name: 📝 Documentation Request
+description: Request a new or an updated input to the documentation.
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Thank you for taking the time to open this Issue!**
+
+        💡 **Please note**
+        This Issue type is meant for requesting a new or an updated input for the Ansible Hackathon Guide.
+        For a missing feature to the MkDocs deployment itself, please use the [Feature request](https://github.com/TimGrt/Ansible-Hackathon/issues/new?assignees=&labels=feature&template=feature_request.yml) issue type.
+
+  - type: input
+    id: contact
+    attributes:
+      label: ☎️ Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+
+  - type: textarea
+    id: whats-missing
+    attributes:
+      label: What is missing?
+      description: What needs to be documented better or even documented at all?
+      value: "Please give a clear and concise explanation what needs to be updated or documented!"
+    validations:
+      required: true
