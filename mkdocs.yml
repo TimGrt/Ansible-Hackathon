@@ -1,7 +1,7 @@
 # code: language=yaml
 site_name: Ansible Hackathon Guide
-site_description: Exercise & Use-Case Guide for Computacenter Ansible Hackathon
-copyright: Copyright &copy; Tim Grützmacher 2025
+site_description: Use-Case Guide for Computacenter Ansible Hackathon
+copyright: Copyright &copy; Computacenter Ansible Community 2025
 edit_uri: ""
 extra_css:
   - assets/stylesheets/extra.css
@@ -59,6 +59,8 @@ plugins:
       enabled: !ENV [ENABLED_GIT_REVISION_DATE, True]
       fallback_to_build_date: true
       locale: en
+      exclude:
+        - index.md
   - privacy
   - print-site:
     # This plugin should always defined as the last one
@@ -83,7 +85,10 @@ theme:
     - content.code.copy
     - navigation.indexes
     - navigation.instant
+    - navigation.instant.progress
+    - navigation.prune
     - navigation.sections
+    - navigation.tabs
     - navigation.top
     - search.highlight
     - search.suggest
@@ -104,6 +109,12 @@ repo_url: https://github.com/TimGrt/Ansible-Hackathon
 repo_name: TimGrt/Ansible-Hackathon
 # Navigation definition
 nav:
-  - "Overview": index.md
-  - "Usecase Eins": ./usecase_one/index.md
-  - "Dokumentation Pattern": ./docu_pattern/index.md
+  - "Overview":
+      - index.md
+      - "Demo Umgebung": demo_environment.md
+  - "Use-Case 1":
+    - usecase_one/usecase_one_description.md
+    - "Dokumentation": usecase_one/usecase_one_documentation.md
+  - "Use-Case 2":
+    - usecase_two/usecase_two_description.md
+    - "Dokumentation": usecase_two/usecase_two_documentation.md
