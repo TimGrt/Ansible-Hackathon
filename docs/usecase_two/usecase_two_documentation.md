@@ -2,6 +2,7 @@
 
 !!! warning "TODO"
     Hier soll eure Dokumentation für den **zweiten** Use-Case entstehen!  
+    Erstellt einen [Fork](https://github.com/TimGrt/Ansible-Hackathon/fork){ target=_blank } des Projekts (ihr benötigt einen Github Account), fügt eure Dokumentation in der passenden Datei `docs/usecase_two/usecase_two_documentation.md` hinzu und erstellt anschließend einen **Pull Request** gegen das originale Repository.
 
 Die Dokumentation ist *einfach* Markdown, im verwendeten [*MkDocs Material*](https://squidfunk.github.io/mkdocs-material/) Theme könnt ihr noch einige zusätzliche Dinge hinterlegen. Schaut in die Doku oder auch in den *Contributing Guide* dieses Repositories.
 
