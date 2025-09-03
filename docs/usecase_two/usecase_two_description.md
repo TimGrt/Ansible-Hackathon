@@ -2,7 +2,8 @@
 
 <p align="center">
     <a target="_blank" href="https://ansible.readthedocs.io/projects/rulebook/en/latest/"><img style="vertical-align: middle" src="../../assets/images/molecule-logo.png" width="100" alt="Molecule Logo"></a>
-    <a target="_blank" href="https://ansible.readthedocs.io/projects/sign/en/latest/index.html"><img style="vertical-align: middle" src="../../assets/images/ansible-logo-clear.png" width="100" alt="Ansible Logo"></a>
+    <a target="_blank" href="https://ansible.readthedocs.io/projects/sign/en/latest/index.html"><img style="vertical-align: middle" src="../../assets/images/ansible-logo-clear.png#only-light" width="100" alt="Ansible Logo"></a>
+    <a target="_blank" href="https://ansible.readthedocs.io/projects/sign/en/latest/index.html"><img style="vertical-align: middle" src="../../assets/images/ansible-logo-clear-white.png#only-dark" width="100" alt="Ansible Logo"></a>
     <a target="_blank" href="https://demo.netbox.dev/"><img style="vertical-align: middle" src="../../assets/images/netbox-logo.png" width="100" alt="Netbox Logo"></a>
     <a target="_blank" href="https://galaxy.ansible.com/ui/repo/published/infra/aap_configuration/"><img style="vertical-align: middle" src="../../assets/images/aap-logo.png" width="100" alt="AAP Logo"></a>
     <a target="_blank" href="https://github.com/TimGrt/Ansible-Hackathon"><img style="vertical-align: middle" src="../../assets/images/git-logo.png" width="100" alt="Git Logo"></a>

@@ -94,14 +94,14 @@ theme:
     - search.suggest
   palette:
     - scheme: default
-      primary: red
-      accent: blue
+      primary: teal
+      accent: red
       toggle:
         icon: material/brightness-4
         name: Switch to dark mode
     - scheme: slate
-      primary: blue
-      accent: red
+      primary: red
+      accent: blue
       toggle:
         icon: material/brightness-7
         name: Switch to light mode
